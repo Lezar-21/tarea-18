@@ -1,0 +1,20 @@
+GET http://localhost:3000/api/usuarios
+
+
+###
+
+
+GET http://localhost:3000/api/usuarios/gvera@uv.mx
+
+
+###
+
+POST http://localhost:3000/api/usuarios
+Content-Type: application/json
+
+{
+    "email":"prueba@uv.mx",
+    "password":"patito",
+    "nombre":"Un nuevo usuario pato",
+    "rol": "Administrador"
+}

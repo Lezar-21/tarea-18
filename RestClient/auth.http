@@ -1,0 +1,13 @@
+GET http://localhost:3000/api/usuarios/gvera@uv.mx
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZ3ZlcmFAdXYubXgiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJHdWlsbGVybW8gSHVtYmVydG8gVmVyYSBBbWFybyIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiNzdkYmQ2MDMtZGU1Zi00ZmM1LTlhNTQtMzI0MGIwMjIxOTBhIiwiZXhwIjoxNzE0ODc2NTU1LCJpc3MiOiJTZXJ2aWRvckZlaUpXVCIsImF1ZCI6IkNsaWVudGVzRmVpSldUIn0.nZCQE6DnZuW0zGAznfGxO9HlJA-urQlKx4iQTw4wTEU
+
+###
+
+POST http://localhost:3000/api/auth
+Content-Type: application/json
+
+{
+    "email":"gvera@uv.mx",
+    "password":"patito"
+}
